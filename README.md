@@ -1,4 +1,4 @@
-# Yolov5 for Oriented Object Detection
+# HFGL-Net:Laplacian-Based Explicit High-Frequency Component Guidance for a Multi-Scale Non-local Channel Attention Network in Remote Sensing Object Detection
 
 # Installation
 Please refer to [install.md](./docs/install.md) for installation and dataset preparation.

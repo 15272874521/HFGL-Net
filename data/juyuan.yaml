@@ -1,0 +1,25 @@
+# path: /data0/fqy/DIOR_R   # dataset root dir
+# train: train/images    # train images (relative to 'path') 
+# val: val/images   # val images (relative to 'path') 
+# test: test/images  # test images (optional)
+
+# # Classes
+# nc: 20  # number of classes
+# names: ['airplane', 'airport', 'baseballfield', 'basketballcourt', 
+# 'bridge', 'chimney', 'dam', 'Expressway-Service-area', 'Expressway-toll-station',
+#  'golffield', 'groundtrackfield', 'harbor', 'overpass', 'ship', 'stadium',
+#   'storagetank', 'tenniscourt', 'trainstation', 'vehicle', 'windmill'] # class names
+
+
+path: /data0/fqy/DOTA_SS
+train: trainval/images
+#val: /home/fqy/yolo/yolov5-6.1/data/val.txt
+test: val/images
+val: val/images
+# number of classes
+nc: 15
+# class names
+names: ['small-vehicle', 'large-vehicle', 'plane', 'storage-tank', 'ship',
+ 'harbor', 'ground-track-field','soccer-ball-field', 'tennis-court',
+ 'swimming-pool', 'baseball-diamond', 'roundabout', 'basketball-court', 
+'bridge', 'helicopter']

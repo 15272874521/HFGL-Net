@@ -1,0 +1,18 @@
+
+
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: /data0/fqy/DOTA_SS   # dataset root dir
+train: trainval/images    # train images (relative to 'path') 
+val: val/images   # val images (relative to 'path') 
+test: test/images  # test images (optional)
+
+# Classes
+nc: 15  # number of classes
+names: ['small-vehicle', 'large-vehicle', 'plane', 'storage-tank', 'ship',
+ 'harbor', 'ground-track-field','soccer-ball-field', 'tennis-court',
+ 'swimming-pool', 'baseball-diamond', 'roundabout', 'basketball-court', 
+'bridge', 'helicopter']
+
+
+# Download script/URL (optional)
+# download: https://ultralytics.com/assets/coco128.zip
